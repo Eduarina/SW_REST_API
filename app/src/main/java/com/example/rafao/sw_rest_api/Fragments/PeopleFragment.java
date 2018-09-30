@@ -96,31 +96,6 @@ public class PeopleFragment extends Fragment {
             peopleViewHolder.setData (datos);
         }
 
-//        @Override
-//        public void onBindViewHolder (@NonNull BaseApiFragment.BaseApiAdapter.BaseApiViewHolder holder, int position) {
-//            switch (boton){
-//                case 1:
-//
-//                    break;
-//                case 2:
-//                    SWApiStarships nave = (SWApiStarships) data.get (position);
-//                    holder.setData (nave.name, nave.cargo_capacity, nave.model);
-//                    break;
-//                case 3:
-//                    SWApiFilms peli = (SWApiFilms) data.get (position);
-//                    holder.setData (peli.title, peli.director, peli.producer);
-//                    break;
-//                case 4:
-//                    SWApiVehicles vehi = (SWApiVehicles) data.get (position);
-//                    holder.setData (vehi.name, vehi.length, vehi.cargo_capacity);
-//                    break;
-//                default:
-//                    SWApiSpecies especie = (SWApiSpecies) data.get (position);
-//                    holder.setData (especie.name, especie.language, especie.classification);
-//                    break;
-//            }
-//        }
-
         @Override
         public int getItemCount () {
             return data.size ();

@@ -5,7 +5,6 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.rafao.sw_rest_api.Fragments.BaseApiFragment;
 import com.example.rafao.sw_rest_api.Fragments.FilmsFragment;
 import com.example.rafao.sw_rest_api.Fragments.PeopleFragment;
 import com.example.rafao.sw_rest_api.Fragments.SpeciesFragment;
